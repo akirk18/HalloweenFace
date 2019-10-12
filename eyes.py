@@ -25,17 +25,24 @@ class Eyes:
         self.matrix = matrix.Matrix8x8(i2c)
         self.Brightness(brightness)
     
-    '''
-    Define the brightness
-    '''
     def Brightness(self, brightness):
+        '''
+        Define the brightness
+        '''
         self.matrix.brightness = brightness
         return
 
-    '''
-    Looking Left
-    '''
+    def Shutdown(self):
+        '''
+        Turn Off Display
+        '''
+        self.matrix.fill(0)
+        return
+
     def Pos0_0(self):
+        '''
+        Looking Left
+        '''
         # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
@@ -111,10 +118,10 @@ class Eyes:
         self.matrix.show()
         return
 
-    '''
-    Looking Center
-    '''
     def Pos0_1(self):
+        '''
+        Looking Center
+        '''
         # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
@@ -190,10 +197,10 @@ class Eyes:
         self.matrix.show()
         return
 
-    '''
-    Looking Right
-    '''
     def Pos0_2(self):
+        '''
+        Looking Right
+        '''
         # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
@@ -269,10 +276,10 @@ class Eyes:
         self.matrix.show()
         return
 
-    '''
-    Looking Left
-    '''
     def Pos1_0(self):
+        '''
+        Looking Left
+        '''
         # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
@@ -348,10 +355,10 @@ class Eyes:
         self.matrix.show()
         return
 
-    '''
-    Looking Transition Left
-    '''
     def Pos1_1(self):
+        '''
+        Looking Transition Left
+        '''
         # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
@@ -427,10 +434,10 @@ class Eyes:
         self.matrix.show()
         return
 
-    '''
-    Looking Straight
-    '''
     def Pos1_2(self):
+        '''
+        Looking Straight
+        '''
         # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
@@ -506,10 +513,10 @@ class Eyes:
         self.matrix.show()
         return
 
-    '''
-    Looking Transition Right
-    '''
     def Pos1_3(self):
+        '''
+        Looking Transition Right
+        '''
         # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
@@ -585,10 +592,10 @@ class Eyes:
         self.matrix.show()
         return
 
-    '''
-    Looking Right
-    '''
     def Pos1_4(self):
+        '''
+        Looking Right
+        '''
         # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
@@ -664,10 +671,10 @@ class Eyes:
         self.matrix.show()
         return
 
-    '''
-    Looking Left
-    '''
     def Pos2_0(self):
+        '''
+        Looking Left
+        '''
         # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
@@ -743,10 +750,10 @@ class Eyes:
         self.matrix.show()
         return
 
-    '''
-    Looking Transition Left
-    '''
     def Pos2_1(self):
+        '''
+        Looking Transition Left
+        '''
         # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
@@ -822,10 +829,10 @@ class Eyes:
         self.matrix.show()
         return
 
-    '''
-    Looking Straight
-    '''
     def Pos2_2(self):
+        '''
+        Looking Straight
+        '''
         # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
@@ -901,10 +908,10 @@ class Eyes:
         self.matrix.show()
         return
 
-    '''
-    Looking Transition Right
-    '''
     def Pos2_3(self):
+        '''
+        Looking Transition Right
+        '''
         # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
@@ -980,10 +987,10 @@ class Eyes:
         self.matrix.show()
         return
 
-    '''
-    Looking Right
-    '''
     def Pos2_4(self):
+        '''
+        Looking Right
+        '''
         # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
@@ -1059,10 +1066,10 @@ class Eyes:
         self.matrix.show()
         return
 
-    '''
-    Looking Left
-    '''
     def Pos3_0(self):
+        '''
+        Looking Left
+        '''
         # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
@@ -1138,10 +1145,10 @@ class Eyes:
         self.matrix.show()
         return
 
-    '''
-    Looking Transition Left
-    '''
     def Pos3_1(self):
+        '''
+        Looking Transition Left
+        '''
         # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
@@ -1217,10 +1224,10 @@ class Eyes:
         self.matrix.show()
         return
 
-    '''
-    Looking Straight
-    '''
     def Pos3_2(self):
+        '''
+        Looking Straight
+        '''
         # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
@@ -1296,10 +1303,10 @@ class Eyes:
         self.matrix.show()
         return
 
-    '''
-    Looking Transition Right
-    '''
     def Pos3_3(self):
+        '''
+        Looking Transition Right
+        '''
         # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
@@ -1375,10 +1382,10 @@ class Eyes:
         self.matrix.show()
         return
 
-    '''
-    Looking Right
-    '''
     def Pos3_4(self):
+        '''
+        Looking Right
+        '''
         # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
@@ -1454,10 +1461,10 @@ class Eyes:
         self.matrix.show()
         return
 
-    '''
-    Looking Left
-    '''
     def Pos4_0(self):
+        '''
+        Looking Left
+        '''
         # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
@@ -1533,10 +1540,10 @@ class Eyes:
         self.matrix.show()
         return
 
-    '''
-    Looking Center
-    '''
     def Pos4_1(self):
+        '''
+        Looking Center
+        '''
         # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
@@ -1612,10 +1619,10 @@ class Eyes:
         self.matrix.show()
         return
 
-    '''
-    Looking Right
-    '''
     def Pos4_2(self):
+        '''
+        Looking Right
+        '''
         # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
