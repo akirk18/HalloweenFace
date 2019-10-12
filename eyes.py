@@ -137,8 +137,8 @@ class Eyes:
         self.matrix[2,0] = 1
         self.matrix[2,1] = 1
         self.matrix[2,2] = 1
-        self.matrix[2,3] = 1
-        self.matrix[2,4] = 1
+        self.matrix[2,3] = 0
+        self.matrix[2,4] = 0
         self.matrix[2,5] = 1
         self.matrix[2,6] = 1
         self.matrix[2,7] = 1
@@ -193,7 +193,7 @@ class Eyes:
     '''
     Looking Right
     '''
-    def Pos4_2(self):
+    def Pos0_2(self):
         # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
