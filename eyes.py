@@ -29,33 +29,77 @@ class Eyes:
     '''
     def Straight(self):
         # row 0
-        for i in range(8)[2:6]:
-            self.matrix[0,i] = 1
+        self.matrix[0,0] = 0
+        self.matrix[0,1] = 0
+        self.matrix[0,2] = 1
+        self.matrix[0,3] = 1
+        self.matrix[0,4] = 1
+        self.matrix[0,5] = 1
+        self.matrix[0,6] = 0
+        self.matrix[0,7] = 0
         # row 1
-        for i in range(8)[1:7]:
-            self.matrix[1,i] = 1
+        self.matrix[1,0] = 0
+        self.matrix[1,1] = 1
+        self.matrix[1,2] = 1
+        self.matrix[1,3] = 1
+        self.matrix[1,4] = 1
+        self.matrix[1,5] = 1
+        self.matrix[1,6] = 1
+        self.matrix[1,7] = 0
         # row 2
-        for i in range(8):
-            self.matrix[2,i] = 1
+        self.matrix[2,0] = 1
+        self.matrix[2,1] = 1
+        self.matrix[2,2] = 1
+        self.matrix[2,3] = 1
+        self.matrix[2,4] = 1
+        self.matrix[2,5] = 1
+        self.matrix[2,6] = 1
+        self.matrix[2,7] = 1
         # row 3
-        for i in range(8):
-            self.matrix[3,i] = 1
+        self.matrix[3,0] = 1
+        self.matrix[3,1] = 1
+        self.matrix[3,2] = 1
+        self.matrix[3,3] = 1
+        self.matrix[3,4] = 1
+        self.matrix[3,5] = 1
+        self.matrix[3,6] = 1
+        self.matrix[3,7] = 1
         # row 4
-        for i in range(8)[:4]:
-            self.matrix[4,i] = 1
-        for i in range(8)[6:]:
-            self.matrix[4,i] = 1
+        self.matrix[4,0] = 1
+        self.matrix[4,1] = 1
+        self.matrix[4,2] = 1
+        self.matrix[4,3] = 0
+        self.matrix[4,4] = 0
+        self.matrix[4,5] = 1
+        self.matrix[4,6] = 1
+        self.matrix[4,7] = 1
         # row 5
-        for i in range(8)[:4]:
-            self.matrix[5,i] = 1
-        for i in range(8)[6:]:
-            self.matrix[5,i] = 1
+        self.matrix[5,0] = 1
+        self.matrix[5,1] = 1
+        self.matrix[5,2] = 1
+        self.matrix[5,3] = 0
+        self.matrix[5,4] = 0
+        self.matrix[5,5] = 1
+        self.matrix[5,6] = 1
+        self.matrix[5,7] = 1
         # row 6
-        for i in range(8)[1:7]:
-            self.matrix[6,i] = 1
+        self.matrix[6,0] = 0
+        self.matrix[6,1] = 1
+        self.matrix[6,2] = 1
+        self.matrix[6,3] = 1
+        self.matrix[6,4] = 1
+        self.matrix[6,5] = 1
+        self.matrix[6,6] = 1
+        self.matrix[6,7] = 0
         # row 7
-        for i in range(8)[2:6]:
-            self.matrix[7,i] = 1
+        self.matrix[7,0] = 0
+        self.matrix[7,1] = 0
+        self.matrix[7,2] = 1
+        self.matrix[7,3] = 1
+        self.matrix[7,4] = 1
+        self.matrix[7,5] = 1
+        self.matrix[7,6] = 0
+        self.matrix[7,7] = 0
         self.matrix.show()
         return
 
