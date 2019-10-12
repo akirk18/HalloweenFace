@@ -1,0 +1,8 @@
+#!usr/local/bin/python3
+
+import board
+import busio
+
+from adafruit_ht16k33 import matrix
+
+print(board.SCL, board.SDA)
