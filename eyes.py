@@ -22,31 +22,31 @@ class EyePostition:
     def Straight(self):
         # row 0
         for i in range(8)[2:6]:
-            matrix[0,i] = 1
+            self.matrix[0,i] = 1
         # row 1
         for i in range(8)[1:7]:
-            matrix[1,i] = 1
+            self.matrix[1,i] = 1
         # row 2
         for i in range(8):
-            matrix[2,i] = 1
+            self.matrix[2,i] = 1
         # row 3
         for i in range(8):
-            matrix[3,i] = 1
+            self.matrix[3,i] = 1
         # row 4
         for i in range(8)[:4]:
-            matrix[4,i] = 1
+            self.matrix[4,i] = 1
         for i in range(8)[6]:
-            matrix[4,i] = 1
+            self.matrix[4,i] = 1
         # row 5
         for i in range(8)[:4]:
-            matrix[5,i] = 1
+            self.matrix[5,i] = 1
         for i in range(8)[6]:
-            matrix[5,i] = 1
+            self.matrix[5,i] = 1
         # row 6
         for i in range(8)[1:7]:
-            matrix[6,i] = 1
+            self.matrix[6,i] = 1
         # row 7
         for i in range(8)[2:6]:
-            matrix[7,i] = 1
-        matrix.show()
+            self.matrix[7,i] = 1
+        self.matrix.show()
         return
