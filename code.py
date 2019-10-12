@@ -7,6 +7,10 @@ import eyes
 
 
 i2c = busio.I2C(board.SCL, board.SDA)
-eyes = eyes.EyePostition(i2c)
+eyes = eyes.Eyes(i2c)
 
 eyes.Straight()
+time.sleep(5)
+eyes.Brightness(12)
+time.sleep(2)
+eyes.Brightness(3)

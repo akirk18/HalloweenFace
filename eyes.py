@@ -12,10 +12,18 @@ Top:
 '''
 from adafruit_ht16k33 import matrix
 
-class EyePostition:
-    def __init__(self, i2c):
+class Eyes:
+    def __init__(self, i2c, brightness=7):
         self.matrix = matrix.Matrix8x8(i2c)
-
+        self.Brightness(brightness)
+    
+    '''
+    Define the brightness
+    '''
+    def Brightness(self, brightness):
+        self.matrix.brightness = brightness
+        return
+    
     '''
     Looking Straight
     '''
@@ -35,12 +43,12 @@ class EyePostition:
         # row 4
         for i in range(8)[:4]:
             self.matrix[4,i] = 1
-        for i in range(8)[6]:
+        for i in range(8)[6:]:
             self.matrix[4,i] = 1
         # row 5
         for i in range(8)[:4]:
             self.matrix[5,i] = 1
-        for i in range(8)[6]:
+        for i in range(8)[6:]:
             self.matrix[5,i] = 1
         # row 6
         for i in range(8)[1:7]:
@@ -50,3 +58,4 @@ class EyePostition:
             self.matrix[7,i] = 1
         self.matrix.show()
         return
+
