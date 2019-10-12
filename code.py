@@ -15,11 +15,24 @@ while True:
 	eyes.Center()
 	time.sleep(1)
 	
+	eyes.MidLeft()
+	time.sleep(1)
+	
 	eyes.Left()
+	time.sleep(1)
+	
+	eyes.MidLeft()
 	time.sleep(1)
 	
 	eyes.Center()
 	time.sleep(1)
 	
+	eyes.MidRight()
+	time.sleep(1)
+	
 	eyes.Right()
 	time.sleep(1)
+
+	eyes.MidRight()
+	time.sleep(1)
+	
