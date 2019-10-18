@@ -39,11 +39,11 @@ class Eyes:
         self.matrix.fill(0)
         return
 
-    def Pos0_0(self):
-        '''
-        Looking Left
-        '''
-        # row 0
+        def Pos0_0(self):
+            '''
+            Looking Left
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 1
@@ -52,7 +52,7 @@ class Eyes:
         self.matrix[0,5] = 1
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 1
         self.matrix[1,2] = 0
@@ -61,7 +61,7 @@ class Eyes:
         self.matrix[1,5] = 1
         self.matrix[1,6] = 1
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 1
         self.matrix[2,1] = 1
         self.matrix[2,2] = 0
@@ -70,7 +70,7 @@ class Eyes:
         self.matrix[2,5] = 1
         self.matrix[2,6] = 1
         self.matrix[2,7] = 1
-        # row 3
+            # row 3
         self.matrix[3,0] = 1
         self.matrix[3,1] = 1
         self.matrix[3,2] = 1
@@ -79,7 +79,7 @@ class Eyes:
         self.matrix[3,5] = 1
         self.matrix[3,6] = 1
         self.matrix[3,7] = 1
-        # row 4
+            # row 4
         self.matrix[4,0] = 1
         self.matrix[4,1] = 1
         self.matrix[4,2] = 1
@@ -88,7 +88,7 @@ class Eyes:
         self.matrix[4,5] = 1
         self.matrix[4,6] = 1
         self.matrix[4,7] = 1
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 1
         self.matrix[5,2] = 1
@@ -97,7 +97,7 @@ class Eyes:
         self.matrix[5,5] = 1
         self.matrix[5,6] = 1
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -106,7 +106,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -116,13 +116,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Pos0_1(self):
-        '''
-        Looking Center
-        '''
-        # row 0
+        def Pos0_1(self):
+            '''
+            Looking Center
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 1
@@ -131,7 +131,7 @@ class Eyes:
         self.matrix[0,5] = 1
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 1
         self.matrix[1,2] = 1
@@ -140,7 +140,7 @@ class Eyes:
         self.matrix[1,5] = 1
         self.matrix[1,6] = 1
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 1
         self.matrix[2,1] = 1
         self.matrix[2,2] = 1
@@ -149,7 +149,7 @@ class Eyes:
         self.matrix[2,5] = 1
         self.matrix[2,6] = 1
         self.matrix[2,7] = 1
-        # row 3
+            # row 3
         self.matrix[3,0] = 1
         self.matrix[3,1] = 1
         self.matrix[3,2] = 1
@@ -158,7 +158,7 @@ class Eyes:
         self.matrix[3,5] = 1
         self.matrix[3,6] = 1
         self.matrix[3,7] = 1
-        # row 4
+            # row 4
         self.matrix[4,0] = 1
         self.matrix[4,1] = 1
         self.matrix[4,2] = 1
@@ -167,7 +167,7 @@ class Eyes:
         self.matrix[4,5] = 1
         self.matrix[4,6] = 1
         self.matrix[4,7] = 1
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 1
         self.matrix[5,2] = 1
@@ -176,7 +176,7 @@ class Eyes:
         self.matrix[5,5] = 1
         self.matrix[5,6] = 1
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -185,7 +185,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -195,13 +195,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Pos0_2(self):
-        '''
-        Looking Right
-        '''
-        # row 0
+        def Pos0_2(self):
+            '''
+            Looking Right
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 1
@@ -210,7 +210,7 @@ class Eyes:
         self.matrix[0,5] = 1
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 1
         self.matrix[1,2] = 1
@@ -219,7 +219,7 @@ class Eyes:
         self.matrix[1,5] = 0
         self.matrix[1,6] = 1
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 1
         self.matrix[2,1] = 1
         self.matrix[2,2] = 1
@@ -228,7 +228,7 @@ class Eyes:
         self.matrix[2,5] = 0
         self.matrix[2,6] = 1
         self.matrix[2,7] = 1
-        # row 3
+            # row 3
         self.matrix[3,0] = 1
         self.matrix[3,1] = 1
         self.matrix[3,2] = 1
@@ -237,7 +237,7 @@ class Eyes:
         self.matrix[3,5] = 1
         self.matrix[3,6] = 1
         self.matrix[3,7] = 1
-        # row 4
+            # row 4
         self.matrix[4,0] = 1
         self.matrix[4,1] = 1
         self.matrix[4,2] = 1
@@ -246,7 +246,7 @@ class Eyes:
         self.matrix[4,5] = 1
         self.matrix[4,6] = 1
         self.matrix[4,7] = 1
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 1
         self.matrix[5,2] = 1
@@ -255,7 +255,7 @@ class Eyes:
         self.matrix[5,5] = 1
         self.matrix[5,6] = 1
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -264,7 +264,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -274,13 +274,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Pos1_0(self):
-        '''
-        Looking Left
-        '''
-        # row 0
+        def Pos1_0(self):
+            '''
+            Looking Left
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 1
@@ -289,7 +289,7 @@ class Eyes:
         self.matrix[0,5] = 1
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 1
         self.matrix[1,2] = 1
@@ -298,7 +298,7 @@ class Eyes:
         self.matrix[1,5] = 1
         self.matrix[1,6] = 1
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 1
         self.matrix[2,1] = 0
         self.matrix[2,2] = 0
@@ -307,7 +307,7 @@ class Eyes:
         self.matrix[2,5] = 1
         self.matrix[2,6] = 1
         self.matrix[2,7] = 1
-        # row 3
+            # row 3
         self.matrix[3,0] = 1
         self.matrix[3,1] = 0
         self.matrix[3,2] = 0
@@ -316,7 +316,7 @@ class Eyes:
         self.matrix[3,5] = 1
         self.matrix[3,6] = 1
         self.matrix[3,7] = 1
-        # row 4
+            # row 4
         self.matrix[4,0] = 1
         self.matrix[4,1] = 1
         self.matrix[4,2] = 1
@@ -325,7 +325,7 @@ class Eyes:
         self.matrix[4,5] = 1
         self.matrix[4,6] = 1
         self.matrix[4,7] = 1
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 1
         self.matrix[5,2] = 1
@@ -334,7 +334,7 @@ class Eyes:
         self.matrix[5,5] = 1
         self.matrix[5,6] = 1
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -343,7 +343,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -353,13 +353,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Pos1_1(self):
-        '''
-        Looking Transition Left
-        '''
-        # row 0
+        def Pos1_1(self):
+            '''
+            Looking Transition Left
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 1
@@ -368,7 +368,7 @@ class Eyes:
         self.matrix[0,5] = 1
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 1
         self.matrix[1,2] = 1
@@ -377,7 +377,7 @@ class Eyes:
         self.matrix[1,5] = 1
         self.matrix[1,6] = 1
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 1
         self.matrix[2,1] = 1
         self.matrix[2,2] = 0
@@ -386,7 +386,7 @@ class Eyes:
         self.matrix[2,5] = 1
         self.matrix[2,6] = 1
         self.matrix[2,7] = 1
-        # row 3
+            # row 3
         self.matrix[3,0] = 1
         self.matrix[3,1] = 1
         self.matrix[3,2] = 0
@@ -395,7 +395,7 @@ class Eyes:
         self.matrix[3,5] = 1
         self.matrix[3,6] = 1
         self.matrix[3,7] = 1
-        # row 4
+            # row 4
         self.matrix[4,0] = 1
         self.matrix[4,1] = 1
         self.matrix[4,2] = 1
@@ -404,7 +404,7 @@ class Eyes:
         self.matrix[4,5] = 1
         self.matrix[4,6] = 1
         self.matrix[4,7] = 1
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 1
         self.matrix[5,2] = 1
@@ -413,7 +413,7 @@ class Eyes:
         self.matrix[5,5] = 1
         self.matrix[5,6] = 1
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -422,7 +422,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -432,13 +432,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Pos1_2(self):
-        '''
-        Looking Straight
-        '''
-        # row 0
+        def Pos1_2(self):
+            '''
+            Looking Straight
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 1
@@ -447,7 +447,7 @@ class Eyes:
         self.matrix[0,5] = 1
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 1
         self.matrix[1,2] = 1
@@ -456,7 +456,7 @@ class Eyes:
         self.matrix[1,5] = 1
         self.matrix[1,6] = 1
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 1
         self.matrix[2,1] = 1
         self.matrix[2,2] = 1
@@ -465,7 +465,7 @@ class Eyes:
         self.matrix[2,5] = 1
         self.matrix[2,6] = 1
         self.matrix[2,7] = 1
-        # row 3
+            # row 3
         self.matrix[3,0] = 1
         self.matrix[3,1] = 1
         self.matrix[3,2] = 1
@@ -474,7 +474,7 @@ class Eyes:
         self.matrix[3,5] = 1
         self.matrix[3,6] = 1
         self.matrix[3,7] = 1
-        # row 4
+            # row 4
         self.matrix[4,0] = 1
         self.matrix[4,1] = 1
         self.matrix[4,2] = 1
@@ -483,7 +483,7 @@ class Eyes:
         self.matrix[4,5] = 1
         self.matrix[4,6] = 1
         self.matrix[4,7] = 1
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 1
         self.matrix[5,2] = 1
@@ -492,7 +492,7 @@ class Eyes:
         self.matrix[5,5] = 1
         self.matrix[5,6] = 1
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -501,7 +501,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -511,13 +511,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Pos1_3(self):
-        '''
-        Looking Transition Right
-        '''
-        # row 0
+        def Pos1_3(self):
+            '''
+            Looking Transition Right
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 1
@@ -526,7 +526,7 @@ class Eyes:
         self.matrix[0,5] = 1
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 1
         self.matrix[1,2] = 1
@@ -535,7 +535,7 @@ class Eyes:
         self.matrix[1,5] = 1
         self.matrix[1,6] = 1
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 1
         self.matrix[2,1] = 1
         self.matrix[2,2] = 1
@@ -544,7 +544,7 @@ class Eyes:
         self.matrix[2,5] = 0
         self.matrix[2,6] = 1
         self.matrix[2,7] = 1
-        # row 3
+            # row 3
         self.matrix[3,0] = 1
         self.matrix[3,1] = 1
         self.matrix[3,2] = 1
@@ -553,7 +553,7 @@ class Eyes:
         self.matrix[3,5] = 0
         self.matrix[3,6] = 1
         self.matrix[3,7] = 1
-        # row 4
+            # row 4
         self.matrix[4,0] = 1
         self.matrix[4,1] = 1
         self.matrix[4,2] = 1
@@ -562,7 +562,7 @@ class Eyes:
         self.matrix[4,5] = 1
         self.matrix[4,6] = 1
         self.matrix[4,7] = 1
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 1
         self.matrix[5,2] = 1
@@ -571,7 +571,7 @@ class Eyes:
         self.matrix[5,5] = 1
         self.matrix[5,6] = 1
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -580,7 +580,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -590,13 +590,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Pos1_4(self):
-        '''
-        Looking Right
-        '''
-        # row 0
+        def Pos1_4(self):
+            '''
+            Looking Right
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 1
@@ -605,7 +605,7 @@ class Eyes:
         self.matrix[0,5] = 1
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 1
         self.matrix[1,2] = 1
@@ -614,7 +614,7 @@ class Eyes:
         self.matrix[1,5] = 1
         self.matrix[1,6] = 1
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 1
         self.matrix[2,1] = 1
         self.matrix[2,2] = 1
@@ -623,7 +623,7 @@ class Eyes:
         self.matrix[2,5] = 0
         self.matrix[2,6] = 0
         self.matrix[2,7] = 1
-        # row 3
+            # row 3
         self.matrix[3,0] = 1
         self.matrix[3,1] = 1
         self.matrix[3,2] = 1
@@ -632,7 +632,7 @@ class Eyes:
         self.matrix[3,5] = 0
         self.matrix[3,6] = 0
         self.matrix[3,7] = 1
-        # row 4
+            # row 4
         self.matrix[4,0] = 1
         self.matrix[4,1] = 1
         self.matrix[4,2] = 1
@@ -641,7 +641,7 @@ class Eyes:
         self.matrix[4,5] = 1
         self.matrix[4,6] = 1
         self.matrix[4,7] = 1
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 1
         self.matrix[5,2] = 1
@@ -650,7 +650,7 @@ class Eyes:
         self.matrix[5,5] = 1
         self.matrix[5,6] = 1
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -659,7 +659,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -669,13 +669,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Pos2_0(self):
-        '''
-        Looking Left
-        '''
-        # row 0
+        def Pos2_0(self):
+            '''
+            Looking Left
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 1
@@ -684,7 +684,7 @@ class Eyes:
         self.matrix[0,5] = 1
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 1
         self.matrix[1,2] = 1
@@ -693,7 +693,7 @@ class Eyes:
         self.matrix[1,5] = 1
         self.matrix[1,6] = 1
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 1
         self.matrix[2,1] = 1
         self.matrix[2,2] = 1
@@ -702,7 +702,7 @@ class Eyes:
         self.matrix[2,5] = 1
         self.matrix[2,6] = 1
         self.matrix[2,7] = 1
-        # row 3
+            # row 3
         self.matrix[3,0] = 1
         self.matrix[3,1] = 0
         self.matrix[3,2] = 0
@@ -711,7 +711,7 @@ class Eyes:
         self.matrix[3,5] = 1
         self.matrix[3,6] = 1
         self.matrix[3,7] = 1
-        # row 4
+            # row 4
         self.matrix[4,0] = 1
         self.matrix[4,1] = 0
         self.matrix[4,2] = 0
@@ -720,7 +720,7 @@ class Eyes:
         self.matrix[4,5] = 1
         self.matrix[4,6] = 1
         self.matrix[4,7] = 1
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 1
         self.matrix[5,2] = 1
@@ -729,7 +729,7 @@ class Eyes:
         self.matrix[5,5] = 1
         self.matrix[5,6] = 1
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -738,7 +738,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -748,13 +748,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Pos2_1(self):
-        '''
-        Looking Transition Left
-        '''
-        # row 0
+        def Pos2_1(self):
+            '''
+            Looking Transition Left
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 1
@@ -763,7 +763,7 @@ class Eyes:
         self.matrix[0,5] = 1
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 1
         self.matrix[1,2] = 1
@@ -772,7 +772,7 @@ class Eyes:
         self.matrix[1,5] = 1
         self.matrix[1,6] = 1
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 1
         self.matrix[2,1] = 1
         self.matrix[2,2] = 1
@@ -781,7 +781,7 @@ class Eyes:
         self.matrix[2,5] = 1
         self.matrix[2,6] = 1
         self.matrix[2,7] = 1
-        # row 3
+            # row 3
         self.matrix[3,0] = 1
         self.matrix[3,1] = 1
         self.matrix[3,2] = 0
@@ -790,7 +790,7 @@ class Eyes:
         self.matrix[3,5] = 1
         self.matrix[3,6] = 1
         self.matrix[3,7] = 1
-        # row 4
+            # row 4
         self.matrix[4,0] = 1
         self.matrix[4,1] = 1
         self.matrix[4,2] = 0
@@ -799,7 +799,7 @@ class Eyes:
         self.matrix[4,5] = 1
         self.matrix[4,6] = 1
         self.matrix[4,7] = 1
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 1
         self.matrix[5,2] = 1
@@ -808,7 +808,7 @@ class Eyes:
         self.matrix[5,5] = 1
         self.matrix[5,6] = 1
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -817,7 +817,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -827,13 +827,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Pos2_2(self):
-        '''
-        Looking Straight
-        '''
-        # row 0
+        def Pos2_2(self):
+            '''
+            Looking Straight
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 1
@@ -842,7 +842,7 @@ class Eyes:
         self.matrix[0,5] = 1
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 1
         self.matrix[1,2] = 1
@@ -851,7 +851,7 @@ class Eyes:
         self.matrix[1,5] = 1
         self.matrix[1,6] = 1
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 1
         self.matrix[2,1] = 1
         self.matrix[2,2] = 1
@@ -860,7 +860,7 @@ class Eyes:
         self.matrix[2,5] = 1
         self.matrix[2,6] = 1
         self.matrix[2,7] = 1
-        # row 3
+            # row 3
         self.matrix[3,0] = 1
         self.matrix[3,1] = 1
         self.matrix[3,2] = 1
@@ -869,7 +869,7 @@ class Eyes:
         self.matrix[3,5] = 1
         self.matrix[3,6] = 1
         self.matrix[3,7] = 1
-        # row 4
+            # row 4
         self.matrix[4,0] = 1
         self.matrix[4,1] = 1
         self.matrix[4,2] = 1
@@ -878,7 +878,7 @@ class Eyes:
         self.matrix[4,5] = 1
         self.matrix[4,6] = 1
         self.matrix[4,7] = 1
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 1
         self.matrix[5,2] = 1
@@ -887,7 +887,7 @@ class Eyes:
         self.matrix[5,5] = 1
         self.matrix[5,6] = 1
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -896,7 +896,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -906,13 +906,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Pos2_3(self):
-        '''
-        Looking Transition Right
-        '''
-        # row 0
+        def Pos2_3(self):
+            '''
+            Looking Transition Right
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 1
@@ -921,7 +921,7 @@ class Eyes:
         self.matrix[0,5] = 1
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 1
         self.matrix[1,2] = 1
@@ -930,7 +930,7 @@ class Eyes:
         self.matrix[1,5] = 1
         self.matrix[1,6] = 1
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 1
         self.matrix[2,1] = 1
         self.matrix[2,2] = 1
@@ -939,7 +939,7 @@ class Eyes:
         self.matrix[2,5] = 1
         self.matrix[2,6] = 1
         self.matrix[2,7] = 1
-        # row 3
+            # row 3
         self.matrix[3,0] = 1
         self.matrix[3,1] = 1
         self.matrix[3,2] = 1
@@ -948,7 +948,7 @@ class Eyes:
         self.matrix[3,5] = 0
         self.matrix[3,6] = 1
         self.matrix[3,7] = 1
-        # row 4
+            # row 4
         self.matrix[4,0] = 1
         self.matrix[4,1] = 1
         self.matrix[4,2] = 1
@@ -957,7 +957,7 @@ class Eyes:
         self.matrix[4,5] = 0
         self.matrix[4,6] = 1
         self.matrix[4,7] = 1
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 1
         self.matrix[5,2] = 1
@@ -966,7 +966,7 @@ class Eyes:
         self.matrix[5,5] = 1
         self.matrix[5,6] = 1
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -975,7 +975,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -985,13 +985,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Pos2_4(self):
-        '''
-        Looking Right
-        '''
-        # row 0
+        def Pos2_4(self):
+            '''
+            Looking Right
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 1
@@ -1000,7 +1000,7 @@ class Eyes:
         self.matrix[0,5] = 1
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 1
         self.matrix[1,2] = 1
@@ -1009,7 +1009,7 @@ class Eyes:
         self.matrix[1,5] = 1
         self.matrix[1,6] = 1
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 1
         self.matrix[2,1] = 1
         self.matrix[2,2] = 1
@@ -1018,7 +1018,7 @@ class Eyes:
         self.matrix[2,5] = 1
         self.matrix[2,6] = 1
         self.matrix[2,7] = 1
-        # row 3
+            # row 3
         self.matrix[3,0] = 1
         self.matrix[3,1] = 1
         self.matrix[3,2] = 1
@@ -1027,7 +1027,7 @@ class Eyes:
         self.matrix[3,5] = 0
         self.matrix[3,6] = 0
         self.matrix[3,7] = 1
-        # row 4
+            # row 4
         self.matrix[4,0] = 1
         self.matrix[4,1] = 1
         self.matrix[4,2] = 1
@@ -1036,7 +1036,7 @@ class Eyes:
         self.matrix[4,5] = 0
         self.matrix[4,6] = 0
         self.matrix[4,7] = 1
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 1
         self.matrix[5,2] = 1
@@ -1045,7 +1045,7 @@ class Eyes:
         self.matrix[5,5] = 1
         self.matrix[5,6] = 1
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -1054,7 +1054,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -1064,13 +1064,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Pos3_0(self):
-        '''
-        Looking Left
-        '''
-        # row 0
+        def Pos3_0(self):
+            '''
+            Looking Left
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 1
@@ -1079,7 +1079,7 @@ class Eyes:
         self.matrix[0,5] = 1
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 1
         self.matrix[1,2] = 1
@@ -1088,7 +1088,7 @@ class Eyes:
         self.matrix[1,5] = 1
         self.matrix[1,6] = 1
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 1
         self.matrix[2,1] = 1
         self.matrix[2,2] = 1
@@ -1097,7 +1097,7 @@ class Eyes:
         self.matrix[2,5] = 1
         self.matrix[2,6] = 1
         self.matrix[2,7] = 1
-        # row 3
+            # row 3
         self.matrix[3,0] = 1
         self.matrix[3,1] = 1
         self.matrix[3,2] = 1
@@ -1106,7 +1106,7 @@ class Eyes:
         self.matrix[3,5] = 1
         self.matrix[3,6] = 1
         self.matrix[3,7] = 1
-        # row 4
+            # row 4
         self.matrix[4,0] = 1
         self.matrix[4,1] = 0
         self.matrix[4,2] = 0
@@ -1115,7 +1115,7 @@ class Eyes:
         self.matrix[4,5] = 1
         self.matrix[4,6] = 1
         self.matrix[4,7] = 1
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 0
         self.matrix[5,2] = 0
@@ -1124,7 +1124,7 @@ class Eyes:
         self.matrix[5,5] = 1
         self.matrix[5,6] = 1
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -1133,7 +1133,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -1143,13 +1143,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Pos3_1(self):
-        '''
-        Looking Transition Left
-        '''
-        # row 0
+        def Pos3_1(self):
+            '''
+            Looking Transition Left
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 1
@@ -1158,7 +1158,7 @@ class Eyes:
         self.matrix[0,5] = 1
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 1
         self.matrix[1,2] = 1
@@ -1167,7 +1167,7 @@ class Eyes:
         self.matrix[1,5] = 1
         self.matrix[1,6] = 1
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 1
         self.matrix[2,1] = 1
         self.matrix[2,2] = 1
@@ -1176,7 +1176,7 @@ class Eyes:
         self.matrix[2,5] = 1
         self.matrix[2,6] = 1
         self.matrix[2,7] = 1
-        # row 3
+            # row 3
         self.matrix[3,0] = 1
         self.matrix[3,1] = 1
         self.matrix[3,2] = 1
@@ -1185,7 +1185,7 @@ class Eyes:
         self.matrix[3,5] = 1
         self.matrix[3,6] = 1
         self.matrix[3,7] = 1
-        # row 4
+            # row 4
         self.matrix[4,0] = 1
         self.matrix[4,1] = 1
         self.matrix[4,2] = 0
@@ -1194,7 +1194,7 @@ class Eyes:
         self.matrix[4,5] = 1
         self.matrix[4,6] = 1
         self.matrix[4,7] = 1
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 1
         self.matrix[5,2] = 0
@@ -1203,7 +1203,7 @@ class Eyes:
         self.matrix[5,5] = 1
         self.matrix[5,6] = 1
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -1212,7 +1212,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -1222,13 +1222,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Pos3_2(self):
-        '''
-        Looking Straight
-        '''
-        # row 0
+        def Pos3_2(self):
+            '''
+            Looking Straight
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 1
@@ -1237,7 +1237,7 @@ class Eyes:
         self.matrix[0,5] = 1
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 1
         self.matrix[1,2] = 1
@@ -1246,7 +1246,7 @@ class Eyes:
         self.matrix[1,5] = 1
         self.matrix[1,6] = 1
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 1
         self.matrix[2,1] = 1
         self.matrix[2,2] = 1
@@ -1255,7 +1255,7 @@ class Eyes:
         self.matrix[2,5] = 1
         self.matrix[2,6] = 1
         self.matrix[2,7] = 1
-        # row 3
+            # row 3
         self.matrix[3,0] = 1
         self.matrix[3,1] = 1
         self.matrix[3,2] = 1
@@ -1264,7 +1264,7 @@ class Eyes:
         self.matrix[3,5] = 1
         self.matrix[3,6] = 1
         self.matrix[3,7] = 1
-        # row 4
+            # row 4
         self.matrix[4,0] = 1
         self.matrix[4,1] = 1
         self.matrix[4,2] = 1
@@ -1273,7 +1273,7 @@ class Eyes:
         self.matrix[4,5] = 1
         self.matrix[4,6] = 1
         self.matrix[4,7] = 1
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 1
         self.matrix[5,2] = 1
@@ -1282,7 +1282,7 @@ class Eyes:
         self.matrix[5,5] = 1
         self.matrix[5,6] = 1
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -1291,7 +1291,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -1301,13 +1301,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Pos3_3(self):
-        '''
-        Looking Transition Right
-        '''
-        # row 0
+        def Pos3_3(self):
+            '''
+            Looking Transition Right
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 1
@@ -1316,7 +1316,7 @@ class Eyes:
         self.matrix[0,5] = 1
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 1
         self.matrix[1,2] = 1
@@ -1325,7 +1325,7 @@ class Eyes:
         self.matrix[1,5] = 1
         self.matrix[1,6] = 1
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 1
         self.matrix[2,1] = 1
         self.matrix[2,2] = 1
@@ -1334,7 +1334,7 @@ class Eyes:
         self.matrix[2,5] = 1
         self.matrix[2,6] = 1
         self.matrix[2,7] = 1
-        # row 3
+            # row 3
         self.matrix[3,0] = 1
         self.matrix[3,1] = 1
         self.matrix[3,2] = 1
@@ -1343,7 +1343,7 @@ class Eyes:
         self.matrix[3,5] = 1
         self.matrix[3,6] = 1
         self.matrix[3,7] = 1
-        # row 4
+            # row 4
         self.matrix[4,0] = 1
         self.matrix[4,1] = 1
         self.matrix[4,2] = 1
@@ -1352,7 +1352,7 @@ class Eyes:
         self.matrix[4,5] = 0
         self.matrix[4,6] = 1
         self.matrix[4,7] = 1
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 1
         self.matrix[5,2] = 1
@@ -1361,7 +1361,7 @@ class Eyes:
         self.matrix[5,5] = 0
         self.matrix[5,6] = 1
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -1370,7 +1370,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -1380,13 +1380,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Pos3_4(self):
-        '''
-        Looking Right
-        '''
-        # row 0
+        def Pos3_4(self):
+            '''
+            Looking Right
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 1
@@ -1395,7 +1395,7 @@ class Eyes:
         self.matrix[0,5] = 1
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 1
         self.matrix[1,2] = 1
@@ -1404,7 +1404,7 @@ class Eyes:
         self.matrix[1,5] = 1
         self.matrix[1,6] = 1
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 1
         self.matrix[2,1] = 1
         self.matrix[2,2] = 1
@@ -1413,7 +1413,7 @@ class Eyes:
         self.matrix[2,5] = 1
         self.matrix[2,6] = 1
         self.matrix[2,7] = 1
-        # row 3
+            # row 3
         self.matrix[3,0] = 1
         self.matrix[3,1] = 1
         self.matrix[3,2] = 1
@@ -1422,7 +1422,7 @@ class Eyes:
         self.matrix[3,5] = 1
         self.matrix[3,6] = 1
         self.matrix[3,7] = 1
-        # row 4
+            # row 4
         self.matrix[4,0] = 1
         self.matrix[4,1] = 1
         self.matrix[4,2] = 1
@@ -1431,7 +1431,7 @@ class Eyes:
         self.matrix[4,5] = 0
         self.matrix[4,6] = 0
         self.matrix[4,7] = 1
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 1
         self.matrix[5,2] = 1
@@ -1440,7 +1440,7 @@ class Eyes:
         self.matrix[5,5] = 0
         self.matrix[5,6] = 0
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -1449,7 +1449,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -1459,13 +1459,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Pos4_0(self):
-        '''
-        Looking Left
-        '''
-        # row 0
+        def Pos4_0(self):
+            '''
+            Looking Left
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 1
@@ -1474,7 +1474,7 @@ class Eyes:
         self.matrix[0,5] = 1
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 1
         self.matrix[1,2] = 1
@@ -1483,7 +1483,7 @@ class Eyes:
         self.matrix[1,5] = 1
         self.matrix[1,6] = 1
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 1
         self.matrix[2,1] = 1
         self.matrix[2,2] = 1
@@ -1492,7 +1492,7 @@ class Eyes:
         self.matrix[2,5] = 1
         self.matrix[2,6] = 1
         self.matrix[2,7] = 1
-        # row 3
+            # row 3
         self.matrix[3,0] = 1
         self.matrix[3,1] = 1
         self.matrix[3,2] = 1
@@ -1501,7 +1501,7 @@ class Eyes:
         self.matrix[3,5] = 1
         self.matrix[3,6] = 1
         self.matrix[3,7] = 1
-        # row 4
+            # row 4
         self.matrix[4,0] = 1
         self.matrix[4,1] = 1
         self.matrix[4,2] = 1
@@ -1510,7 +1510,7 @@ class Eyes:
         self.matrix[4,5] = 1
         self.matrix[4,6] = 1
         self.matrix[4,7] = 1
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 1
         self.matrix[5,2] = 0
@@ -1519,7 +1519,7 @@ class Eyes:
         self.matrix[5,5] = 1
         self.matrix[5,6] = 1
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 0
@@ -1528,7 +1528,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -1538,13 +1538,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Pos4_1(self):
-        '''
-        Looking Center
-        '''
-        # row 0
+        def Pos4_1(self):
+            '''
+            Looking Center
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 1
@@ -1553,7 +1553,7 @@ class Eyes:
         self.matrix[0,5] = 1
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 1
         self.matrix[1,2] = 1
@@ -1562,7 +1562,7 @@ class Eyes:
         self.matrix[1,5] = 1
         self.matrix[1,6] = 1
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 1
         self.matrix[2,1] = 1
         self.matrix[2,2] = 1
@@ -1571,7 +1571,7 @@ class Eyes:
         self.matrix[2,5] = 1
         self.matrix[2,6] = 1
         self.matrix[2,7] = 1
-        # row 3
+            # row 3
         self.matrix[3,0] = 1
         self.matrix[3,1] = 1
         self.matrix[3,2] = 1
@@ -1580,7 +1580,7 @@ class Eyes:
         self.matrix[3,5] = 1
         self.matrix[3,6] = 1
         self.matrix[3,7] = 1
-        # row 4
+            # row 4
         self.matrix[4,0] = 1
         self.matrix[4,1] = 1
         self.matrix[4,2] = 1
@@ -1589,7 +1589,7 @@ class Eyes:
         self.matrix[4,5] = 1
         self.matrix[4,6] = 1
         self.matrix[4,7] = 1
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 1
         self.matrix[5,2] = 1
@@ -1598,7 +1598,7 @@ class Eyes:
         self.matrix[5,5] = 1
         self.matrix[5,6] = 1
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -1607,7 +1607,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -1617,13 +1617,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Pos4_2(self):
-        '''
-        Looking Right
-        '''
-        # row 0
+        def Pos4_2(self):
+            '''
+            Looking Right
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 1
@@ -1632,7 +1632,7 @@ class Eyes:
         self.matrix[0,5] = 1
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 1
         self.matrix[1,2] = 1
@@ -1641,7 +1641,7 @@ class Eyes:
         self.matrix[1,5] = 1
         self.matrix[1,6] = 1
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 1
         self.matrix[2,1] = 1
         self.matrix[2,2] = 1
@@ -1650,7 +1650,7 @@ class Eyes:
         self.matrix[2,5] = 1
         self.matrix[2,6] = 1
         self.matrix[2,7] = 1
-        # row 3
+            # row 3
         self.matrix[3,0] = 1
         self.matrix[3,1] = 1
         self.matrix[3,2] = 1
@@ -1659,7 +1659,7 @@ class Eyes:
         self.matrix[3,5] = 1
         self.matrix[3,6] = 1
         self.matrix[3,7] = 1
-        # row 4
+            # row 4
         self.matrix[4,0] = 1
         self.matrix[4,1] = 1
         self.matrix[4,2] = 1
@@ -1668,7 +1668,7 @@ class Eyes:
         self.matrix[4,5] = 1
         self.matrix[4,6] = 1
         self.matrix[4,7] = 1
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 1
         self.matrix[5,2] = 1
@@ -1677,7 +1677,7 @@ class Eyes:
         self.matrix[5,5] = 0
         self.matrix[5,6] = 1
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -1686,7 +1686,7 @@ class Eyes:
         self.matrix[6,5] = 0
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -1696,13 +1696,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Blink_0(self):
-        '''
-        Looking Straight
-        '''
-        # row 0
+        def Blink_0(self):
+            '''
+            Looking Straight
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 1
@@ -1711,7 +1711,7 @@ class Eyes:
         self.matrix[0,5] = 1
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 1
         self.matrix[1,2] = 1
@@ -1720,7 +1720,7 @@ class Eyes:
         self.matrix[1,5] = 1
         self.matrix[1,6] = 1
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 1
         self.matrix[2,1] = 1
         self.matrix[2,2] = 1
@@ -1729,7 +1729,7 @@ class Eyes:
         self.matrix[2,5] = 1
         self.matrix[2,6] = 1
         self.matrix[2,7] = 1
-        # row 3
+            # row 3
         self.matrix[3,0] = 1
         self.matrix[3,1] = 1
         self.matrix[3,2] = 1
@@ -1738,7 +1738,7 @@ class Eyes:
         self.matrix[3,5] = 1
         self.matrix[3,6] = 1
         self.matrix[3,7] = 1
-        # row 4
+            # row 4
         self.matrix[4,0] = 1
         self.matrix[4,1] = 1
         self.matrix[4,2] = 1
@@ -1747,7 +1747,7 @@ class Eyes:
         self.matrix[4,5] = 1
         self.matrix[4,6] = 1
         self.matrix[4,7] = 1
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 1
         self.matrix[5,2] = 1
@@ -1756,7 +1756,7 @@ class Eyes:
         self.matrix[5,5] = 1
         self.matrix[5,6] = 1
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -1765,7 +1765,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -1775,13 +1775,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Blink_1(self):
-        '''
-        Looking Straight
-        '''
-        # row 0
+        def Blink_1(self):
+            '''
+            Looking Straight
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 0
@@ -1790,7 +1790,7 @@ class Eyes:
         self.matrix[0,5] = 0
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 1
         self.matrix[1,2] = 1
@@ -1799,7 +1799,7 @@ class Eyes:
         self.matrix[1,5] = 1
         self.matrix[1,6] = 1
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 1
         self.matrix[2,1] = 1
         self.matrix[2,2] = 1
@@ -1808,7 +1808,7 @@ class Eyes:
         self.matrix[2,5] = 1
         self.matrix[2,6] = 1
         self.matrix[2,7] = 1
-        # row 3
+            # row 3
         self.matrix[3,0] = 1
         self.matrix[3,1] = 1
         self.matrix[3,2] = 1
@@ -1817,7 +1817,7 @@ class Eyes:
         self.matrix[3,5] = 1
         self.matrix[3,6] = 1
         self.matrix[3,7] = 1
-        # row 4
+            # row 4
         self.matrix[4,0] = 1
         self.matrix[4,1] = 1
         self.matrix[4,2] = 1
@@ -1826,7 +1826,7 @@ class Eyes:
         self.matrix[4,5] = 1
         self.matrix[4,6] = 1
         self.matrix[4,7] = 1
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 1
         self.matrix[5,2] = 1
@@ -1835,7 +1835,7 @@ class Eyes:
         self.matrix[5,5] = 1
         self.matrix[5,6] = 1
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -1844,7 +1844,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -1854,13 +1854,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Blink_2(self):
-        '''
-        Looking Straight
-        '''
-        # row 0
+        def Blink_2(self):
+            '''
+            Looking Straight
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 0
@@ -1869,7 +1869,7 @@ class Eyes:
         self.matrix[0,5] = 0
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 0
         self.matrix[1,2] = 0
@@ -1878,7 +1878,7 @@ class Eyes:
         self.matrix[1,5] = 0
         self.matrix[1,6] = 0
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 1
         self.matrix[2,1] = 1
         self.matrix[2,2] = 1
@@ -1887,7 +1887,7 @@ class Eyes:
         self.matrix[2,5] = 1
         self.matrix[2,6] = 1
         self.matrix[2,7] = 1
-        # row 3
+            # row 3
         self.matrix[3,0] = 1
         self.matrix[3,1] = 1
         self.matrix[3,2] = 1
@@ -1896,7 +1896,7 @@ class Eyes:
         self.matrix[3,5] = 1
         self.matrix[3,6] = 1
         self.matrix[3,7] = 1
-        # row 4
+            # row 4
         self.matrix[4,0] = 1
         self.matrix[4,1] = 1
         self.matrix[4,2] = 1
@@ -1905,7 +1905,7 @@ class Eyes:
         self.matrix[4,5] = 1
         self.matrix[4,6] = 1
         self.matrix[4,7] = 1
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 1
         self.matrix[5,2] = 1
@@ -1914,7 +1914,7 @@ class Eyes:
         self.matrix[5,5] = 1
         self.matrix[5,6] = 1
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -1923,7 +1923,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -1933,13 +1933,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Blink_3(self):
-        '''
-        Looking Straight
-        '''
-        # row 0
+        def Blink_3(self):
+            '''
+            Looking Straight
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 0
@@ -1948,7 +1948,7 @@ class Eyes:
         self.matrix[0,5] = 0
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 0
         self.matrix[1,2] = 0
@@ -1957,7 +1957,7 @@ class Eyes:
         self.matrix[1,5] = 0
         self.matrix[1,6] = 0
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 0
         self.matrix[2,1] = 0
         self.matrix[2,2] = 0
@@ -1966,7 +1966,7 @@ class Eyes:
         self.matrix[2,5] = 0
         self.matrix[2,6] = 0
         self.matrix[2,7] = 0
-        # row 3
+            # row 3
         self.matrix[3,0] = 1
         self.matrix[3,1] = 1
         self.matrix[3,2] = 1
@@ -1975,7 +1975,7 @@ class Eyes:
         self.matrix[3,5] = 1
         self.matrix[3,6] = 1
         self.matrix[3,7] = 1
-        # row 4
+            # row 4
         self.matrix[4,0] = 1
         self.matrix[4,1] = 1
         self.matrix[4,2] = 1
@@ -1984,7 +1984,7 @@ class Eyes:
         self.matrix[4,5] = 1
         self.matrix[4,6] = 1
         self.matrix[4,7] = 1
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 1
         self.matrix[5,2] = 1
@@ -1993,7 +1993,7 @@ class Eyes:
         self.matrix[5,5] = 1
         self.matrix[5,6] = 1
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -2002,7 +2002,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -2012,13 +2012,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Blink_4(self):
-        '''
-        Looking Straight
-        '''
-        # row 0
+        def Blink_4(self):
+            '''
+            Looking Straight
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 0
@@ -2027,7 +2027,7 @@ class Eyes:
         self.matrix[0,5] = 0
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 0
         self.matrix[1,2] = 0
@@ -2036,7 +2036,7 @@ class Eyes:
         self.matrix[1,5] = 0
         self.matrix[1,6] = 0
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 0
         self.matrix[2,1] = 0
         self.matrix[2,2] = 0
@@ -2045,7 +2045,7 @@ class Eyes:
         self.matrix[2,5] = 0
         self.matrix[2,6] = 0
         self.matrix[2,7] = 0
-        # row 3
+            # row 3
         self.matrix[3,0] = 0
         self.matrix[3,1] = 0
         self.matrix[3,2] = 0
@@ -2054,7 +2054,7 @@ class Eyes:
         self.matrix[3,5] = 0
         self.matrix[3,6] = 0
         self.matrix[3,7] = 0
-        # row 4
+            # row 4
         self.matrix[4,0] = 1
         self.matrix[4,1] = 1
         self.matrix[4,2] = 1
@@ -2063,7 +2063,7 @@ class Eyes:
         self.matrix[4,5] = 1
         self.matrix[4,6] = 1
         self.matrix[4,7] = 1
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 1
         self.matrix[5,2] = 1
@@ -2072,7 +2072,7 @@ class Eyes:
         self.matrix[5,5] = 1
         self.matrix[5,6] = 1
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -2081,7 +2081,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -2091,13 +2091,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Blink_5(self):
-        '''
-        Looking Straight
-        '''
-        # row 0
+        def Blink_5(self):
+            '''
+            Looking Straight
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 0
@@ -2106,7 +2106,7 @@ class Eyes:
         self.matrix[0,5] = 0
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 0
         self.matrix[1,2] = 0
@@ -2115,7 +2115,7 @@ class Eyes:
         self.matrix[1,5] = 0
         self.matrix[1,6] = 0
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 0
         self.matrix[2,1] = 0
         self.matrix[2,2] = 0
@@ -2124,7 +2124,7 @@ class Eyes:
         self.matrix[2,5] = 0
         self.matrix[2,6] = 0
         self.matrix[2,7] = 0
-        # row 3
+            # row 3
         self.matrix[3,0] = 0
         self.matrix[3,1] = 0
         self.matrix[3,2] = 0
@@ -2133,7 +2133,7 @@ class Eyes:
         self.matrix[3,5] = 0
         self.matrix[3,6] = 0
         self.matrix[3,7] = 0
-        # row 4
+            # row 4
         self.matrix[4,0] = 0
         self.matrix[4,1] = 0
         self.matrix[4,2] = 0
@@ -2142,7 +2142,7 @@ class Eyes:
         self.matrix[4,5] = 0
         self.matrix[4,6] = 0
         self.matrix[4,7] = 0
-        # row 5
+            # row 5
         self.matrix[5,0] = 1
         self.matrix[5,1] = 1
         self.matrix[5,2] = 1
@@ -2151,7 +2151,7 @@ class Eyes:
         self.matrix[5,5] = 1
         self.matrix[5,6] = 1
         self.matrix[5,7] = 1
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -2160,7 +2160,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -2170,13 +2170,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Blink_6(self):
-        '''
-        Looking Straight
-        '''
-        # row 0
+        def Blink_6(self):
+            '''
+            Looking Straight
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 0
@@ -2185,7 +2185,7 @@ class Eyes:
         self.matrix[0,5] = 0
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 0
         self.matrix[1,2] = 0
@@ -2194,7 +2194,7 @@ class Eyes:
         self.matrix[1,5] = 0
         self.matrix[1,6] = 0
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 0
         self.matrix[2,1] = 0
         self.matrix[2,2] = 0
@@ -2203,7 +2203,7 @@ class Eyes:
         self.matrix[2,5] = 0
         self.matrix[2,6] = 0
         self.matrix[2,7] = 0
-        # row 3
+            # row 3
         self.matrix[3,0] = 0
         self.matrix[3,1] = 0
         self.matrix[3,2] = 0
@@ -2212,7 +2212,7 @@ class Eyes:
         self.matrix[3,5] = 0
         self.matrix[3,6] = 0
         self.matrix[3,7] = 0
-        # row 4
+            # row 4
         self.matrix[4,0] = 0
         self.matrix[4,1] = 0
         self.matrix[4,2] = 0
@@ -2221,7 +2221,7 @@ class Eyes:
         self.matrix[4,5] = 0
         self.matrix[4,6] = 0
         self.matrix[4,7] = 0
-        # row 5
+            # row 5
         self.matrix[5,0] = 0
         self.matrix[5,1] = 0
         self.matrix[5,2] = 0
@@ -2230,7 +2230,7 @@ class Eyes:
         self.matrix[5,5] = 0
         self.matrix[5,6] = 0
         self.matrix[5,7] = 0
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 1
         self.matrix[6,2] = 1
@@ -2239,7 +2239,7 @@ class Eyes:
         self.matrix[6,5] = 1
         self.matrix[6,6] = 1
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -2249,13 +2249,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Blink_7(self):
-        '''
-        Looking Straight
-        '''
-        # row 0
+        def Blink_7(self):
+            '''
+            Looking Straight
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 0
@@ -2264,7 +2264,7 @@ class Eyes:
         self.matrix[0,5] = 0
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 0
         self.matrix[1,2] = 0
@@ -2273,7 +2273,7 @@ class Eyes:
         self.matrix[1,5] = 0
         self.matrix[1,6] = 0
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 0
         self.matrix[2,1] = 0
         self.matrix[2,2] = 0
@@ -2282,7 +2282,7 @@ class Eyes:
         self.matrix[2,5] = 0
         self.matrix[2,6] = 0
         self.matrix[2,7] = 0
-        # row 3
+            # row 3
         self.matrix[3,0] = 0
         self.matrix[3,1] = 0
         self.matrix[3,2] = 0
@@ -2291,7 +2291,7 @@ class Eyes:
         self.matrix[3,5] = 0
         self.matrix[3,6] = 0
         self.matrix[3,7] = 0
-        # row 4
+            # row 4
         self.matrix[4,0] = 0
         self.matrix[4,1] = 0
         self.matrix[4,2] = 0
@@ -2300,7 +2300,7 @@ class Eyes:
         self.matrix[4,5] = 0
         self.matrix[4,6] = 0
         self.matrix[4,7] = 0
-        # row 5
+            # row 5
         self.matrix[5,0] = 0
         self.matrix[5,1] = 0
         self.matrix[5,2] = 0
@@ -2309,7 +2309,7 @@ class Eyes:
         self.matrix[5,5] = 0
         self.matrix[5,6] = 0
         self.matrix[5,7] = 0
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 0
         self.matrix[6,2] = 0
@@ -2318,7 +2318,7 @@ class Eyes:
         self.matrix[6,5] = 0
         self.matrix[6,6] = 0
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 1
@@ -2328,13 +2328,13 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
 
-    def Blink_8(self):
-        '''
-        Looking Straight
-        '''
-        # row 0
+        def Blink_8(self):
+            '''
+            Looking Straight
+            '''
+            # row 0
         self.matrix[0,0] = 0
         self.matrix[0,1] = 0
         self.matrix[0,2] = 0
@@ -2343,7 +2343,7 @@ class Eyes:
         self.matrix[0,5] = 0
         self.matrix[0,6] = 0
         self.matrix[0,7] = 0
-        # row 1
+            # row 1
         self.matrix[1,0] = 0
         self.matrix[1,1] = 0
         self.matrix[1,2] = 0
@@ -2352,7 +2352,7 @@ class Eyes:
         self.matrix[1,5] = 0
         self.matrix[1,6] = 0
         self.matrix[1,7] = 0
-        # row 2
+            # row 2
         self.matrix[2,0] = 0
         self.matrix[2,1] = 0
         self.matrix[2,2] = 0
@@ -2361,7 +2361,7 @@ class Eyes:
         self.matrix[2,5] = 0
         self.matrix[2,6] = 0
         self.matrix[2,7] = 0
-        # row 3
+            # row 3
         self.matrix[3,0] = 0
         self.matrix[3,1] = 0
         self.matrix[3,2] = 0
@@ -2370,7 +2370,7 @@ class Eyes:
         self.matrix[3,5] = 0
         self.matrix[3,6] = 0
         self.matrix[3,7] = 0
-        # row 4
+            # row 4
         self.matrix[4,0] = 0
         self.matrix[4,1] = 0
         self.matrix[4,2] = 0
@@ -2379,7 +2379,7 @@ class Eyes:
         self.matrix[4,5] = 0
         self.matrix[4,6] = 0
         self.matrix[4,7] = 0
-        # row 5
+            # row 5
         self.matrix[5,0] = 0
         self.matrix[5,1] = 0
         self.matrix[5,2] = 0
@@ -2388,7 +2388,7 @@ class Eyes:
         self.matrix[5,5] = 0
         self.matrix[5,6] = 0
         self.matrix[5,7] = 0
-        # row 6
+            # row 6
         self.matrix[6,0] = 0
         self.matrix[6,1] = 0
         self.matrix[6,2] = 0
@@ -2397,7 +2397,7 @@ class Eyes:
         self.matrix[6,5] = 0
         self.matrix[6,6] = 0
         self.matrix[6,7] = 0
-        # row 7
+            # row 7
         self.matrix[7,0] = 0
         self.matrix[7,1] = 0
         self.matrix[7,2] = 0
@@ -2407,4 +2407,4 @@ class Eyes:
         self.matrix[7,6] = 0
         self.matrix[7,7] = 0
         self.matrix.show()
-        return
+            return
