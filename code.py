@@ -40,17 +40,10 @@ def Execute(positions, speed):
 
 look_low_s2s = [eyes.Pos3_0(), eyes.Pos3_1(), eyes.Pos3_2(), eyes.Pos3_3(), eyes.Pos3_4()]
 
-<<<<<<< HEAD
-blink = [eyes.Blink_0, eyes.Blink_1, eyes.Blink_2, eyes.Blink_3, 
-         eyes.Blink_4, eyes.Blink_5, eyes.Blink_6, eyes.Blink_7,
-         eyes.Blink_8]
-print('play music')
-=======
 blink = [eyes.Blink_0(), eyes.Blink_1(), eyes.Blink_2(), eyes.Blink_3(), 
          eyes.Blink_4(), eyes.Blink_5(), eyes.Blink_6(), eyes.Blink_7(),
          eyes.Blink_8()]
 
->>>>>>> f84e3424e0e13b5daa87518989c7819515f29531
 pygame.mixer.music.play()
 print(pygame.mixer.get_busy())
 
