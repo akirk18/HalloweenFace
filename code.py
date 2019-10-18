@@ -4,6 +4,7 @@ import board
 import busio
 import time
 import eyes
+import pygame
 
 '''
 Eye Positions according to top left corner
@@ -17,10 +18,19 @@ Eye Positions according to top left corner
 [x,x,x,x,x,x,x,x] x
 '''
 
+pygame.init()
+file = 'Welcome.mp3'
+pygame.mixer.init()
+
+
 i2c = busio.I2C(board.SCL, board.SDA)
 eyes = eyes.Eyes(i2c)
 
 eyes.Brightness(3)
+
+pygame.mixer.music.load(file)
+pygame.mixer.music.play()
+#pygame.event.wait()
 
 #while True:
 eyes.Pos0_0()
