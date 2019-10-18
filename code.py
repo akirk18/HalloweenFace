@@ -35,6 +35,7 @@ pygame.mixer.music.load(file)
 def Execute(positions, speed):
     for pos in positions:
         pos
+        print(pos)
         time.sleep(speed)
 
 look_low_s2s = [eyes.Pos3_0, eyes.Pos3_1, eyes.Pos3_2, eyes.Pos3_3, eyes.Pos3_4]
@@ -42,13 +43,14 @@ look_low_s2s = [eyes.Pos3_0, eyes.Pos3_1, eyes.Pos3_2, eyes.Pos3_3, eyes.Pos3_4]
 blink = [eyes.Blink_0, eyes.Blink_1, eyes.Blink_2, eyes.Blink_3, 
          eyes.Blink_4, eyes.Blink_5, eyes.Blink_6, eyes.Blink_7,
          eyes.Blink_8]
-
+print('play music')
 pygame.mixer.music.play()
+print(pygame.mixer.get_busy())
 
-while (pygame.event.get_busy()):
+while (not pygame.mixer.get_busy()):
     Execute(blink, 0.1)
     Execute(look_low_s2s, 0.3)
-    pygame.event.wait()
+    print(pygame.mixer.get_busy())
 
 eyes.Shutdown()
 	
